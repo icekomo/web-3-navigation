@@ -1,0 +1,26 @@
+/* =============
+    Content
+============= */
+
+#content{
+    display: grid;
+    grid-template-columns: 24px auto 24px;
+    grid-template-areas: ". content .";
+    padding: 100px 0;
+
+    @include xl{
+        grid-template-columns: auto 600px auto;
+    }
+
+    >div{
+        grid-area: content;
+        text-align: center;
+        h1{
+            margin-bottom: 30px;
+        }
+        p{
+            text-align: justify;
+            line-height: rem-calc(25);
+        }
+    }
+}
