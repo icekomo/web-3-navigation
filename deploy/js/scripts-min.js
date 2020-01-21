@@ -1,1 +1,1 @@
-$(document).ready((function(){console.log("ready!")}));
+$(document).ready((function(){console.log("ready!")})),console.log("burger"),gsap.set(".lines",{transformOrigin:"50% 50%"}),gsap.set("#arrow-left-top",{transformOrigin:"0% 50%",rotate:30,alpha:0}),gsap.set("#arrow-left-bottom",{transformOrigin:"0% 50%",rotate:-30,alpha:0});
