@@ -94,6 +94,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/burger/burgerclick.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/burger/burgerclick-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/burger/burgermouseenter.js": {
 		"bF": 0,
 		"ft": 64,
